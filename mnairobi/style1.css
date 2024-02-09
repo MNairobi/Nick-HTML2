@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(workspace.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    margin: auto;
+    height: 75px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height:70px;
+}
+.logo{
+    padding-top: 10px;
+    float: left;
+    color: blue;
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+ul li a{
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
